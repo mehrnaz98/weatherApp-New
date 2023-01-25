@@ -1,0 +1,56 @@
+h1 {
+  display: block;
+  margin: 0 auto;
+}
+strong {
+  font-size: 19px;
+}
+.topic {
+  color: #041421;
+  font-size: 45px;
+}
+#city {
+  color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-transform: capitalize;
+}
+#ContainAll {
+  color: #000000;
+  border: 3px solid black;
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902023.jpg?w=996&t=st=1673515478~exp=1673516078~hmac=5d71df7ab905804bd7bcf3b0fed29002d191f7e70e7b1f2dd48f6f9255223e85");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1319px;
+  padding: 10px 10px 10px 10px;
+  font-family: monospace;
+  box-shadow: rgba(37, 39, 89, 0.482) 0px 8px 8px 0;
+}
+#detail {
+  background-color: #da98c357;
+  padding: 10px 10px 10px 10px;
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+#detail2 {
+  background-color: #fbdad34a;
+  margin-top: 10px;
+  padding: 10px 10px 10px 10px;
+  color: rgb(0, 0, 0);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.units {
+  font-size: small;
+  position: relative;
+  top: -13px;
+}
+
+.secondButton {
+  background-color: #2fb74d;
+  border-color: #2fb74d;
+}
+.secondButton:hover {
+  background-color: #25913d;
+  border-color: #25913d;
+}
