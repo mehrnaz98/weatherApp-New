@@ -16,7 +16,7 @@ strong {
 }
 #ContainAll {
   color: #000000;
-  border: 3px solid black;
+  border: 3px solid rgb(187, 185, 185);
   background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902023.jpg?w=996&t=st=1673515478~exp=1673516078~hmac=5d71df7ab905804bd7bcf3b0fed29002d191f7e70e7b1f2dd48f6f9255223e85");
   background-position: center;
   background-repeat: no-repeat;
@@ -24,6 +24,7 @@ strong {
   padding: 10px 10px 10px 10px;
   font-family: monospace;
   box-shadow: rgba(37, 39, 89, 0.482) 0px 8px 8px 0;
+  margin-top: 10px;
 }
 #detail {
   background-color: #da98c357;
@@ -46,11 +47,29 @@ strong {
   top: -13px;
 }
 
+.form-control {
+  padding-right: 0;
+  height: 4.4vh;
+  width: 180px;
+}
+
+.firstButton {
+  box-shadow: rgba(37, 39, 89, 0.482) 0px 3px 5px 0;
+}
+
 .secondButton {
   background-color: #2fb74d;
   border-color: #2fb74d;
+  box-shadow: rgba(37, 39, 89, 0.482) 0px 3px 5px 0;
 }
 .secondButton:hover {
   background-color: #25913d;
   border-color: #25913d;
+}
+
+.sourceCode {
+  padding-top: 12px;
+  padding-left: 5px;
+  font-size: 15px;
+  font-family: monospace;
 }

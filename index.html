@@ -31,7 +31,7 @@
     <div class="container" id="ContainAll">
       <div col>
         <h1 class="topic">Weather News</h1>
-        <div class="col-8" id="search">
+        <div class="col-12" id="search">
           <form class="row g-3">
             <div class="col-auto">
               <label for="inputPassword2" class="visually-hidden">search</label>
@@ -43,12 +43,18 @@
               />
             </div>
             <div class="col-auto">
-              <button type="submit" class="btn btn-primary mb-3 firstButton">
+              <button
+                type="submit"
+                class="btn btn-primary mb-3 btn-sm firstButton"
+              >
                 Search
               </button>
             </div>
             <div class="col-auto">
-              <button type="submit" class="btn btn-primary mb-3 secondButton">
+              <button
+                type="submit"
+                class="btn btn-primary mb-3 btn-sm secondButton"
+              >
                 Current
               </button>
             </div>
@@ -122,6 +128,12 @@
         </div>
       </div>
     </div>
+    <div class="container sourceCode">
+      <a href="https://github.com/mehrnaz98/weatherApp-New.git"
+        >Open-source code</a
+      >, by Mehrnaz Eftekhari
+    </div>
+
     <script>
       let currentTime = new Date();
       let days = [
